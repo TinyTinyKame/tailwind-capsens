@@ -68,3 +68,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Tailwind
+
+Low-level CSS Utility framework, no built-in components different from bootstrap.
+Responsive, Mobile-first, all classes can be set to certain device sizes.
+
+## Pros
+
+### Styling process much faster, Consistency
+
+Tailwind helps you style your HTML elements much faster. Tailwind has a lot of pre-built classes for sizing and colors.
+
+### Performance
+
+PurgeCSS, clears unused styles on production build.
+### High Customization
+
+Tailwind gives the developer a generous default theme that will work very well for bootstrapped projects.
+Tailwind's configuration file allows developers to tamper right into Tailwind. Any change will be reflected in the final stylesheet. It also allows adding custom plugins, which opens a world of possibilities for third-parties.
+
+## Cons
+
+### Verbose
+
+One of Tailwind's weakness can be its readability.
+If you’ve seen how Tailwind is usually being used, you provide the HTML elements with a bunch of Tailwind classes which are responsible for the styling.
+
+### Not beginner friendly
+
+When you rely on a framework to do all the heavy lifting for you without actually knowing what is happening in the background, you may lose control of your styling and not know how to debug any issues.
+
+### Complex animations
+
+For creating a complex animation, one would have to create a class name for each element. This will end up in more work than doing within CSS. Thankfully, this can also be easily solved using Plain CSS through stylesheets, an animation library like Framer Motion, or a CSS-in-JS library like Styled Components. I believe any of these is valid and encouraged with Tailwind, however, some developers would just prefer to just use plain CSS for their animation without any library.
+
+## Sources
+[https://javascript.plainenglish.io/is-tailwind-css-really-worth-using-1830a706231a](https://javascript.plainenglish.io/is-tailwind-css-really-worth-using-1830a706231a)
+[https://dev.to/joserfelix/why-use-tailwind-css-for-your-next-project-39hp](https://dev.to/joserfelix/why-use-tailwind-css-for-your-next-project-39hp)
