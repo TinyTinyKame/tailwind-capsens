@@ -21,3 +21,9 @@ code {
     @apply bg-gray-100;
   }
 }
+
+@layer components {
+  .bg-pokeball {
+    background: linear-gradient(180deg, rgba(252, 165, 165, 1) 0%, rgba(252, 165, 165, 1) 50%, white 50%, white 100%);
+  }
+}
