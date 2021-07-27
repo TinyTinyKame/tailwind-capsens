@@ -5,7 +5,11 @@ function Card({ item }) {
       <img src={item.roundImg} alt={`${item.name} icon`}/>
       <div>
         <h3>{item.name}</h3>
-        <div>{item.type}</div>
+        <div>
+          {
+            item.types.map(type => (<div>{type}</div>))
+          }
+        </div>
         <div>{item.species}</div>
       </div>
     </div>
